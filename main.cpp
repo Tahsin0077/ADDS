@@ -9,9 +9,9 @@ int main(){
 
     Player * winner = ref.refGame(&p1, &p2);
     if(winner == nullptr){
-        cout << "Its a tie" << endl;
+        cout << "Tie" << endl;
     }else {
-        cout << winner->getName() << "wins" << endl;
+        cout << winner->getName() << endl;
     }
     return 0;
 
