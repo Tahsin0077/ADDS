@@ -27,7 +27,7 @@ Move* Human::makeMove() {
     if (choice == "Ninja") return new Ninja();
     if (choice == "Zombie") return new Zombie();
 
-    return nullptr; // invalid
+    return nullptr; 
 }
 
 string Human::getName() const {

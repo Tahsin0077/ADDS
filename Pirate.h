@@ -1,10 +1,11 @@
 #ifndef PIRATE_H
 #define PIRATE_H
 #include "Move.h"
+#include <string>
 
 class Pirate : public Move {
 public:
-    string getName() const override;
+    std::string getName() const override;
     bool beats(const Move* other) const override;
 };
 

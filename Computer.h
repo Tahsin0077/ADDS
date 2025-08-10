@@ -1,13 +1,17 @@
 #ifndef COMPUTER_H
 #define COMPUTER_H
+
 #include "Player.h"
+#include <string>
+
+#include "Move.h"
 
 class Computer : public Player {
-    string name;
+    std::string name;
 public:
-    Computer(string n);
+    Computer(std::string n);
     Move* makeMove() override;
-    string getName() const override;
+    std::string getName() const override;
 };
 
 #endif

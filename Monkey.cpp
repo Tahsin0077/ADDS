@@ -6,4 +6,3 @@ bool Monkey::beats(const Move* other) const {
     string o = other->getName();
     return o == "Paper" || o == "Robot";
 }
-
