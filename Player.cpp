@@ -1,7 +1,7 @@
 #include "Player.h"
 
 string Player::getName() {
-    return name;
+    return this->name;
 }
 
 Player::~Player() {}

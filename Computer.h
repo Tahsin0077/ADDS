@@ -7,7 +7,6 @@
 #include "Move.h"
 
 class Computer : public Player {
-    std::string name;
 public:
     Computer();
     Computer(std::string n);

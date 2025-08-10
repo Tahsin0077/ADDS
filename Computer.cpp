@@ -18,7 +18,7 @@ Computer::Computer(){
     this->name="Computer";
 }
 
-Computer::Computer(string n) : name(n) {
+Computer::Computer(string n){
     this->name = n;
 }
 
