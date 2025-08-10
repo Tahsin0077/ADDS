@@ -15,7 +15,6 @@ Human::Human(string n) : name(n) {}
 
 Move* Human::makeMove() {
     string choice;
-    cout << name << ", enter move: ";
     cin >> choice;
 
     if (choice == "Rock") return new Rock();
