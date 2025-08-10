@@ -14,10 +14,12 @@
 
 using namespace std;
 
-Computer::Computer() : name("Computer") {
+Computer::Computer(){
+    this->name="Computer";
 }
 
 Computer::Computer(string n) : name(n) {
+    this->name = n;
 }
 
 Move* Computer::makeMove() {

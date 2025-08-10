@@ -11,9 +11,13 @@
 
 using namespace std;
 
-Human::Human() : name("Human") {}
+    Human::Human() {
+    this->name = "Human";
+}
 
-Human::Human(string n) : name(n) {}
+Human::Human(string n) {
+    this->name = n;
+}
 
 Move* Human::makeMove() {
     string choice;
