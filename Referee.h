@@ -1,15 +1,11 @@
 #ifndef REFEREE_H
 #define REFEREE_H
-
-#include "Computer.h"
-#include "Human.h"
-
-using namespace std;
+#include "Player.h"
 
 class Referee {
-    public:
-        Referee( ); // constructor
-        Player * refGame(Player * player1, Player * player2);
+public:
+    Referee() {}
+    Player* refGame(Player* p1, Player* p2);
 };
 
 #endif
