@@ -15,7 +15,7 @@
 using namespace std;
 
 Computer::Computer(string n) : name(n) {
-    srand(time(0)); // Consider moving this to main()
+    srand(time(0)); 
 }
 
 Move* Computer::makeMove() {
@@ -31,8 +31,4 @@ Move* Computer::makeMove() {
         case 7: return new Zombie();
     }
     return nullptr;
-}
-
-string Computer::getName() const {
-    return name;
 }

@@ -9,11 +9,11 @@ class Player {
 protected:
     string name;
 public:
-    Player() : name() {}
-    Player(const string& n) : name(n) {}
+    Player();
+    Player( string& n);
     virtual Move* makeMove() = 0;
-    virtual string getName() const { return name; }
-    virtual ~Player() {}
+    string getName() ;
+    virtual ~Player();
 };
 
 #endif

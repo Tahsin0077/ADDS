@@ -29,7 +29,3 @@ Move* Human::makeMove() {
 
     return nullptr; 
 }
-
-string Human::getName() const {
-    return name;
-}

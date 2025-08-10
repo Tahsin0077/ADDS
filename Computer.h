@@ -10,8 +10,7 @@ class Computer : public Player {
     std::string name;
 public:
     Computer(std::string n);
-    Move* makeMove() override;
-    std::string getName() const override;
+    Move* makeMove();
 };
 
 #endif

@@ -1,8 +1,8 @@
 #include "Robot.h"
 using namespace std;
 
-string Robot::getName() const { return "Robot"; }
-bool Robot::beats(const Move* other) const {
+string Robot::getName()  { return "Robot"; }
+bool Robot::beats( Move* other) {
     string o = other->getName();
     return o == "Scissors" || o == "Ninja";
 }

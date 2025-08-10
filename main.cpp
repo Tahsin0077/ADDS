@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    Human p1("Player");
+    Human p1("Alice");
     Computer p2("Computer");
     Referee ref;
 
