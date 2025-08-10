@@ -8,7 +8,7 @@ class Move;
 class Human : public Player {
     std::string name;
 public:
-    Human() : name("Human") {}
+    Human();
     Human(std::string n);
     Move* makeMove();
 };

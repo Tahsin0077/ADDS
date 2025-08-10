@@ -14,8 +14,10 @@
 
 using namespace std;
 
+Computer::Computer() : name("Computer") {
+}
+
 Computer::Computer(string n) : name(n) {
-    srand(time(0)); 
 }
 
 Move* Computer::makeMove() {

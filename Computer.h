@@ -9,7 +9,7 @@
 class Computer : public Player {
     std::string name;
 public:
-    Computer() : name("Computer") {}
+    Computer();
     Computer(std::string n);
     Move* makeMove();
 };
